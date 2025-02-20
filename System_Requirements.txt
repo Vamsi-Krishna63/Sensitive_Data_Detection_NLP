@@ -1,0 +1,10 @@
+System Requirements:
+
+OS: Windows, Linux, MAC
+RAM: 8GB or more
+
+
+Coding Platforms to run this project:
+
+1) Vscode 
+2) Google colab

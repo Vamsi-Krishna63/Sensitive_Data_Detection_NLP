@@ -34,7 +34,12 @@ patterns = {
     "badge_number": r'\b\d{3}-[A-Z]{2}-\d{4}\b',
     "flight_id": r'\bFLGHT\d{4}\b',
     "zip_code": r'\bZIP:\s?\d{5}\b',
-    "user_name": r'^[a-zA-Z][a-zA-Z0-9_]{2,19}$'
+    "user_name": r'^[a-zA-Z][a-zA-Z0-9_]{2,19}$',
+    "account_number": r'\bACCT#?\s*\d{8,12}\b',
+    "routing_number": r'\b[0-9]{9}\b',
+    "password": r'(?:password|pwd)\s*[:=]\s*[^\s]{8,}',
+    "medical_record_number": r'\bMRN[ -]?\d{6,12}\b',
+    "license_plate": r'\b[A-Z]{2,3}[ -]?\d{3,4}\b'
 
 }
 
